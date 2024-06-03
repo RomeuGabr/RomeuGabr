@@ -1,0 +1,7 @@
+@end
+DoCRect.h
+#import <Foundation/Foundation.h>
+#import "CRect.h"
+@interface DoCRect : NSObject
+-(BOOL) isIntersect:(CRect *) rect1 :(CRect *) rect2; //
+-(CRect *) intersectRect: (CRect *) rect1 :(CRect *) rect2;
