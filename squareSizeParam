@@ -1,0 +1,8 @@
+public void init ()
+{
+   String squareSizeParam = getParameter ("squareSize");
+   parseSquareSize (squareSizeParam);
+   String colorParam = getParameter ("color");
+   Color fg = parseColor (colorParam);
+   setBackground (Color.black);
+   setForeground (fg);
